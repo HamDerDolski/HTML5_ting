@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Canvas</title>
+	<style>
+    .canvasHolder{
+        position: relative;
+        height: 500px; width: 500px; //based on your canvas size
+    }
+    .canvas{
+        position: absolute;
+        top: 0; left: 0;
+    }
+</style>
+
+<div class="canvasHolder">
+    <canvas class="canvas" id="dessin1" width="500" height="500"> ... </canvas>
+    <canvas class="canvas" id="dessin2" width="500" height="500"> ... </canvas>
+</div>
+
+<button id="clearCanvas1"> Clear canvas1 (black circle) </button>
+</head>
+<body>
+	<canvas></canvas>
+	<script src="multilayer.js"></script>
+</body>
+</html>
